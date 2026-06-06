@@ -44,6 +44,8 @@ FOR n := 1 TO 10 DO
   IF Priority = 2 THEN
     MotorTree.MotorStart[n] := ModeStart[n];
     ManualStart[n] := ModeStart[n];
+	END_IF
+END_FOR
 
 
 In conclusion I can say,  after implementing this, I can manually start - SWITCH PRIORITY, and motors HOLDS their states. 
@@ -51,6 +53,3 @@ Then define how much motors to stop, and stop by 4 selections, respective to mot
 
 Important note here: If you want to extend the control system, you can replace Motor Counts with Motor Rotation or Motor Temperature.
 The logic itself just proved that it can sort array in ascending/descending motor start/stop order respective to the data provided, for this project - iCounts, Tsum. 
-
-
-
