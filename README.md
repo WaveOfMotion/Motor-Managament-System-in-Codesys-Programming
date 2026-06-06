@@ -17,6 +17,7 @@ But I have also 4 buttons as mentioned before. If the "Start/Stop selection meth
 they have to override manual start, and the otherway around. 
 So I implement priority switching. And if priority is changed, motor holds the last value.
 
+
 Last words being said, if you want to extend the control system, 
 you can replace Motor Counts with Motor Rotation or Motor Temperature.
 The logic itself just proved that it can sort array in ascending/descending motor start/stop order, 
