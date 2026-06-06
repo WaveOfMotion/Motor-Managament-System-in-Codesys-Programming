@@ -1,7 +1,6 @@
 # Motor START/STOP Management System with selection
 
-This PLC-based logic of multiple motor start/stop is developped on function block FB_Motor defined variables :
-(.. Since Methods are like Functions of function block, I used them more to not store everything inside programs or function blocks ..)
+In short-introduction, this PLC-based logic of multiple motor start/stop is developped on function block FB_Motor defined variables :
 
 1) Counts how many times motor has been started :
 ```iecst
